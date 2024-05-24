@@ -8,6 +8,24 @@ A JavaFX application to manage products in a MySQL database.
 - Delete a product by ID
 - Exit the application
 
+## Setup
+1. **Clone the Repository:**
+    ```bash
+    git clone <repository-url>
+    ```
+2. **Open in IDE:**
+    - Click on `File -> Open Project` and select the cloned project directory.
+3. **Configure Database Connection:**
+    - Update `Db_system.java`:
+    ```java
+    String url = "jdbc:mysql://localhost:3306/ProductsDB_Abdulrahman";
+    String username = "your-username";
+    String password = "your-password";
+    ```
+4. **Build and Run:**
+    - Right-click the project and select `Build`.
+    - Right-click the project and select `Run`.
+
 ## Database Setup
 1. **Create Database:**
     ```sql
@@ -26,22 +44,6 @@ A JavaFX application to manage products in a MySQL database.
     );
     ```
 
-## Application Setup
-1. **Clone the Repository:**
-    ```bash
-    git clone <repository-url>
-    ```
-2. **Open in IDE:**
-    - Click on `File -> Open Project` and select the cloned project directory.
-3. **Configure Database Connection:**
-    - Update `Db_system.java`:
-    ```java
-    String url = "jdbc:mysql://localhost:3306/ProductsDB_Abdulrahman";
-    String username = "your-username";
-    String password = "your-password";
-    ```
-4. **Build and Run:**
-    - Right-click the project and select `Build`.
-    - Right-click the project and select `Run`.
 
-"# JavaFx-Product-Information-System" 
+
+
